@@ -20,8 +20,14 @@ El proyecto documenta una ejecución fallida de Azure Pipelines `#20261022.1` po
 
 El lanzamiento v1.0.0 se realizó en el repositorio principal. La validación de preproducción mediante Azure Environment y aprobación manual **no equivale a despliegue de producción**.
 
+## Validación final de documentación y dependencias
+
+El [PR #21](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/pull/21) fue fusionado a `main` como `f3f5bab` y contiene los commits `0401122` (documentación AB#35) y `6b42bc9` (corrección de `body-parser`). Antes de la fusión se ejecutaron compilación, lint y auditoría de dependencias de producción sin vulnerabilidades reportadas. La [ejecución #30 de GitHub Actions](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/actions/runs/40239671615) fue exitosa.
+
+**Distinción de versiones:** el tag `v1.0.0` permanece fijado en `f55a55f`, anterior al PR #21. Los cambios posteriores pertenecen a `main`, no al contenido inmutable del tag.
+
 ## Alcance y pendientes
 
 Esta carpeta documenta y enlaza evidencias existentes; **no duplica ni atribuye retrospectivamente a Semana 3** los commits realizados en semanas anteriores. Para la entrega académica final faltará adjuntar capturas seleccionadas de Azure Boards, aprobación de preproducción y resultados de los pipelines, junto con un resumen de los requisitos del enunciado.
 
-El informe de seguridad reconoce como pendiente un escaneo integral de secretos de todo el historial Git. No se debe afirmar que ese control se completó sin evidencia adicional.
+El escaneo Gitleaks del historial accesible de Semana 1 está documentado en [AB#34](ab34-escaneo-gitleaks.md): 81 commits, cero hallazgos. No acredita por sí solo el análisis de repositorios adicionales, archivos ignorados ni entornos externos.
