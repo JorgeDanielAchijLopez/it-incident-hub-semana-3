@@ -8,9 +8,13 @@
 
 | Entrega | Repositorio | Último commit observado al realizar esta verificación | Evidencia |
 | --- | --- | --- | --- |
-| Semana 1 | [it-incident-hub-semana-1](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1) | [`f55a55f`](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/commit/f55a55f0b2354ee97a31be6846e6f711fdb041ff) | Código funcional, historial de PR, CI y release v1.0.0 |
+| Semana 1 | [it-incident-hub-semana-1](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1) | [`f3f5bab`](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/commit/f3f5babfc69905f695e139bc0f61ee8232e628f1) | Código funcional, PR #21 fusionado, CI; tag v1.0.0 conservado en `f55a55f` |
 | Semana 2 | [it-incident-hub-semana-2](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-2) | [`3338443`](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-2/commit/333844319100bc1dbc4c3db7a1f1dabcee20f76b) | Código versionado, CI, pruebas y documentación de seguridad |
 | Semana 3 | [it-incident-hub-semana-3](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-3) | [`f2c545c`](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-3/commit/f2c545c7b293da51a831ba301468e21c070e5322) | README, evidencias del release, Gitleaks, reproducción desde tag y checklist de cierre |
+
+## Actualización posterior al release
+
+El [PR #21](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/pull/21) se fusionó en `main` como `f3f5bab`. Incluye la actualización documental AB#35 y la corrección de `body-parser`. La [ejecución #30 de GitHub Actions](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/actions/runs/40239671615) concluyó con éxito. El tag `v1.0.0` sigue señalando `f55a55f`, por lo que reproducir el tag y ejecutar el último `main` no son operaciones equivalentes.
 
 ## Interpretación
 
