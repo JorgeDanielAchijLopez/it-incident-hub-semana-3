@@ -42,4 +42,17 @@ La validación de Azure Pipelines incluye ejecuciones fallidas, correcciones ver
 
 ## Estado de la entrega
 
-Repositorio de Semana 3 en preparación. La documentación y las evidencias finales se incorporarán progresivamente, manteniendo la trazabilidad con las entregas anteriores.
+La documentación de cierre de Semana 3 está organizada en `docs/` y enlaza las evidencias verificables de las tres entregas. La aplicación ejecutable se conserva en Semana 1; este repositorio funciona como entrega documental y guía de reproducción del tag `v1.0.0`.
+
+**Última actualización verificada del repositorio principal:** PR [#21](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/pull/21) fusionado a `main` (`f3f5bab`), con documentación final y corrección de dependencia `body-parser`. GitHub Actions [ejecución #30](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/actions/runs/40239671615) finalizó correctamente. El tag `v1.0.0` permanece en el commit original `f55a55f`; los cambios posteriores no modifican retroactivamente esa versión.
+
+### Documentación de cierre
+
+- [Checklist del Epic AB#7](docs/checklist-cierre-epic-ab7.md)
+- [Evidencias de lanzamiento](docs/evidencias-release.md)
+- [Reproducir la versión publicada](docs/reproducir-v1.0.0.md)
+- [Trazabilidad de entregas](docs/trazabilidad-entregas.md)
+- [Verificación de repositorios](docs/verificacion-tres-repositorios.md)
+- [Escaneo de secretos](docs/ab34-escaneo-gitleaks.md)
+
+**Alcance:** se documentó una aprobación de preproducción; no se declara despliegue real a producción. El informe académico en PDF y su selección de capturas se preparan por separado.
