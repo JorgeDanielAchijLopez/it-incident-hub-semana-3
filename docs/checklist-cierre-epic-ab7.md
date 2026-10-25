@@ -23,12 +23,16 @@
 
 ## Verificaciones finales pendientes
 
-- [ ] Confirmar en Azure Boards que AB#7 y sus Features/Stories/Tasks tienen los estados y criterios de aceptación esperados.
-- [ ] Confirmar en GitHub Actions una ejecución exitosa con enlace directo.
+- [x] Cierre de AB#7 mostrado en evidencia de Azure Boards; conservar la captura y comprobar los estados individuales de Features/Stories/Tasks antes de presentar el PDF.
+- [x] GitHub Actions: [ejecución #30 exitosa](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/actions/runs/40239671615) sobre el merge del PR #21.
 - [ ] Confirmar ejemplos de todas las categorías de ramas exigidas.
-- [ ] Guardar captura de Gitleaks y de aprobación de preproducción.
+- [x] Capturas de Gitleaks y aprobación de preproducción identificadas para el informe; conservar los originales al preparar el PDF.
 - [ ] Preparar PDF final con evidencias y aclaración de que no se efectuó despliegue real a producción.
-- [ ] Cerrar AB#7 **solo después** de comprobar que se cumplieron todos sus criterios de aceptación.
+- [x] AB#7 aparece cerrado en la evidencia facilitada. La revisión final del cumplimiento se mantiene documentada y no se confunde con despliegue a producción.
+
+## Validación posterior al release
+
+El [PR #21](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/pull/21) fue fusionado en `main` (`f3f5bab`). El cambio incluyó documentación final y una actualización del lockfile de backend para corregir la vulnerabilidad reportada en `body-parser`. El usuario verificó `npm run check` y `npm audit --prefix backend --omit=dev` con cero vulnerabilidades antes del merge. La ejecución [GitHub Actions #30](https://github.com/JorgeDanielAchijLopez/it-incident-hub-semana-1/actions/runs/40239671615) finalizó correctamente. El tag `v1.0.0` no se movió y permanece en `f55a55f`.
 
 ## Restricciones de veracidad
 
